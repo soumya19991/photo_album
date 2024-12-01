@@ -1,0 +1,26 @@
+/* Styling for the photo album */
+.photo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.photo-album img {
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.photo-album img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.modal-img {
+    max-width: 100%;
+    max-height: 80vh;
+    transition: opacity 0.5s;
+}
+
+#loadMore {
+    margin-top: 20px;
+}
