@@ -3,7 +3,7 @@ const images = [];
 for (let i = 1; i <= 3000; i++) {
     images.push(`images/photo (${i}).jpg`);
 }
-
+console.log(images);
 const photoAlbum = document.getElementById("photoAlbum");
 const loadMoreButton = document.getElementById("loadMore");
 
